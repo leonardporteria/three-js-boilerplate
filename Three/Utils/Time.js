@@ -13,6 +13,7 @@ export default class Time extends EventEmitter {
 
   update() {
     const currentTime = Date.now();
+
     this.delta = currentTime - this.current;
     this.current = currentTime;
     this.elapsed = this.current - this.start;

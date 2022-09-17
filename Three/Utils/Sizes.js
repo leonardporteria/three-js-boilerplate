@@ -14,7 +14,7 @@ export default class Sizes extends EventEmitter {
       this.aspect = this.width / this.height;
       this.emit("resize");
 
-      console.log(this.height, this.width, this.aspect);
+      console.log(this.height, this.width);
     });
   }
 }

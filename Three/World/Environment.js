@@ -41,6 +41,7 @@ export default class Environment {
 
     // Point Light Helper
     this.pointLightHelper = new THREE.PointLightHelper(this.pointLight, 1);
+
     this.scene.add(this.pointLightHelper);
   }
 

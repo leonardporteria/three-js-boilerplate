@@ -57,6 +57,12 @@ export default [
 
 ## public folder
 
-the **assets** folder is the place for img, fonts, videos, and any non-3DObject models.
-the **model** folder consists the glb files that will be your rendered model (follow `assets.js` for file path). </br>
-the **draco** folder is important, it is from the three js module. **!!!DO NOT DELETE!!!**
+- The **assets** folder is the place for img, fonts, videos, and any non-3DObject models.</br>
+- The **model** folder consists the glb files that will be your rendered model (follow `assets.js` for file path). </br>
+- The **draco** folder is important, it is from the three js module. **!!!DO NOT DELETE!!!**</br>
+
+# IMPORTANT NOTE!
+
+> This method of creating Three.js project was derived from Andrew Woan's video
+> https://www.youtube.com/watch?v=rxTb9ys834w&ab_channel=AndrewWoan
+> This Boilerplate was not 100% made by me, but modified to meet my comfort in coding Three.js

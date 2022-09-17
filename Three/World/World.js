@@ -16,8 +16,10 @@ export default class World {
 
     this.resources.on("ready", () => {
       console.log("ALL ASSETS LOADED");
+
       this.environment = new Environment();
       this.model = new Model();
+
       tick();
     });
   }

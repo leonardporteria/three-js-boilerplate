@@ -10,7 +10,6 @@ export default class Resources extends EventEmitter {
     this.renderer = this.three.renderer;
 
     this.assets = assets;
-
     this.items = {};
     this.queue = Object.keys(this.assets).length;
     this.loaded = 0;

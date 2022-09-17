@@ -25,7 +25,7 @@ export default class Model {
       console.log(child);
 
       if (child.name === "Gear") {
-        // find the name of the child to select it, and add dedicated positions
+        // find the name of the child to select it, and add dedicated positions.
         // child.children[0].position.y = 5;
       }
     });
