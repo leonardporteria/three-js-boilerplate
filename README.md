@@ -24,8 +24,8 @@
 
 ### assets.js
 
-> always keep the name 'model' for the key name as the `Model.js` uses dot notation `this.model = this.resources.items.model`.
-> this boilerplate is deisgned for `glbModel` files only.
+> always keep the name 'model' for the key name as the `Model.js` uses dot notation `this.resources.items.**model**`.
+> this boilerplate is deisgned for `glbModel` file type only.
 
 ```bash
 export default [
