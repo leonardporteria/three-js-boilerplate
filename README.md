@@ -35,6 +35,11 @@ This Boilerplate uses Vite build tool.</br>
     }
 ```
 
+## Three folder
+
+The Three folder uses the `Three.js` as the controller class and holds the static instance.</br>
+The Three folder is divided into different files(class) to minimize long codes in singe file.</br>
+
 ## assets.js
 
 > always keep the name 'model' for the key name as the `Model.js` uses dot notation `this.resources.items.model`.
@@ -49,3 +54,9 @@ export default [
   },
 ];
 ```
+
+## public folder
+
+the **assets** folder is the place for img, fonts, videos, and any non-3DObject models.
+the **model** folder consists the glb files that will be your rendered model (follow `assets.js` for file path). </br>
+the **draco** folder is important, it is from the three js module. **!!!DO NOT DELETE!!!**
