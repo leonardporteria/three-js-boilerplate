@@ -1,8 +1,11 @@
 # three-js-boilerplate
 
-> initial commit
+- HTML
+- SCSS
+- Javascript
+- Vite App
 
-# SCSS config
+### SCSS config
 
 ```bash
   "liveSassCompile.settings.formats": [
@@ -11,8 +14,10 @@
       "extensionName": ".css",
       "savePath": "/src/css"
     }
+```
 
-
-
-    http://127.0.0.1:5173/
+```bash
+    npm i
+    npm run dev
+    ➜  Local:   http://127.0.0.1:5173/
 ```
